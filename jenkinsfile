@@ -4,6 +4,9 @@ pipeline{
         stage("demo"){
             steps{
                 echo "jenkinsfile demo"
+        stage(demos){
+            steps{
+                echo "jenkinsfile demos" 
             }
         }
     }
