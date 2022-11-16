@@ -1,9 +1,12 @@
 pipeline{
     agent any
     stages{
+        stage("demo"){
+            steps{
+                echo "jenkinsfile demo"
         stage(demos){
             steps{
-                echo "jenkinsfile demos"
+                echo "jenkinsfile demos" 
             }
         }
     }
