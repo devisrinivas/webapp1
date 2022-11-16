@@ -1,0 +1,10 @@
+pipeline{
+    agent any
+    stages{
+        stage(demos){
+            steps{
+                echo "jenkinsfile demos"
+            }
+        }
+    }
+}
